@@ -2,13 +2,10 @@
 
 ## Quickstart
 
-### Install Dependencies
-
-`npm install`
-
-### Deploy Contract with Contrak tracking
-
-`npx hardhat run --network localhost scripts/deploy.ts`
+1. Follow the setup instructions in the [Contrak README](https://github.com/NikitaVr/contrak#setup) to get an instance of Contrak running on your machine at http://localhost:3000/
+2. Run `npm install` to install dependencies in this example repo
+3. Run `npx hardhat node` to run a local hardhat node
+4. Run `npx hardhat run --network localhost scripts/deploy.ts` to deploy the contract to your local hardhat node and connect it to Contrak
 
 ## Usage in your own projects
 
